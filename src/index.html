@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="text-gray-600 font-serif">
+    
+<div class="cont w-[80%]  flex "> 
+<div class="">
+    <nav>
+        <div>
+            <h1 class="font-bold uppercase p-4 border-b border-gray-100 text-mammoth  w-[150%] ">
+                <a href="/" class="text">food ninja</a>
+            </h1>
+        </div>
+        <ul class="text-gray-700 font-bold ml-[50px]">
+            <li >
+                <a href="#">
+                    <span>home</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span>about</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span>contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div><!-- end nav -->
+
+
+<!-- <div class="translate-x-[100px] "> -->
+    
+<main class="px-16 py-6 bg-gray-100 sm: translate-x-[35px] " >
+
+    <div class="flex justify-center md:justify-end md:col-span-1">
+        <a href="#" class=" btn text-primary border-2 border-red-500 md translate-x-14">long in</a>
+        <a href="#" class="  btn text-primary ml-2 border-2 border-red-500 md translate-x-14">sing up</a>
+    </div>
+    <header> 
+         <h2 class="text-gray-700 text-6xl font-semibold">racipes</h2>
+        <h3 class="text-2x1 font-semibold">for ninjas</h3>
+    </header>
+
+    <div>
+        <h4 class="font-bold mt-12 pb-2 border-b  border-gray-200 sm:w-[50%]">Latest recipes</h4>
+
+        <div class="mt-8 grid lg:grid-cols-3 gap-16  mr-5  ">
+             <!--cards go here -->  
+            <div class="card w-[100%] translate-x-[-55px] ">
+                <img src="image/stew.jpg" alt="" class="w-full h-32 sm:h-48 object-cover " >
+                <div class="m-4">
+                    <span class="font-bold">5 Bean chilli stew</span>
+                    <span class="block text-gray-500 text-sm ">Recipe by Mario</span>
+                </div>
+                <div class="badge">
+                    <span>25 mins</span>
+                </div>
+            </div>
+
+            <div class="card translate-x-[-54px] sm: translate-x-[-45px] mr-6">
+                <img src="image/stew.jpg" alt="" class="w-full h-32 sm:h-48 object-cover" >
+                <div class="m-4">
+                    <span class="font-bold">5 Bean chilli stew</span>
+                    <span class="block text-gray-500 text-sm ">Recipe by Mario</span>
+                </div>
+                <div class="badge">
+                    <span>25 mins</span>
+                </div>
+            </div>
+
+            <div class="card translate-x-[-55px] sm:translate-x-[-15px] ">
+                <img src="image/stew.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                <div class="m-4">
+                    <span class="font-bold">5 Bean chilli stew</span>
+                    <span class="block text-gray-500 text-sm ">Recipe by Mario</span>
+                </div>
+                <div class="badge">
+                    <span>25 mins</span>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
+
+        <div class="mt-8"> 
+            <!-- cards go here -->
+        </div>
+
+        <div class="flex justify-center">
+
+            <div class="  btn bg-gray-400">Load More</div>
+        </div>
+    </div>
+</main>
+</div>
+</div>
+
+</body>
+</html>
